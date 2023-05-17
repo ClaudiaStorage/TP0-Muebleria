@@ -6,17 +6,19 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-    
-}
-body{
     font-family: 'Poppins', sans-serif;
 }
+body{
+    
+}
+
+
 .header{
-    width: 960px;
+    width: 100%;
     height: 70px;
     margin-left: auto;
     margin-right: auto;
-    background: cornflowerblue;
+    background-color: cornflowerblue;
     display: flex;
   justify-content: space-between;
     
@@ -27,7 +29,7 @@ body{
 
 
 .navbar {
-    width: 400px;
+    width: 100%;
     height: 40px;
     float: right;
     margin-top: 20px;
@@ -48,8 +50,6 @@ body{
 .navbar ul li a{
     display: inline-block;
     padding: 10px;
-    background-color: greenyellow;
-    color: #fff;
     font-weight: bold;
     text-decoration: none;
 }
@@ -57,7 +57,7 @@ body{
     color: red;
 }
 .navbar ul li a:visited{
-    color: fuchsia;
+    color: rgb(243, 239, 243);
 }
 .navbar ul li a:link{
     color: blue;
@@ -66,11 +66,11 @@ body{
     color: yellow;
 }
 .descripcion {
-    width: 960px;
+    width: 100%;
     height: 180px;
 }
 .contenido-principal {
-    width: 960px;
+    width: 100%;
     height: 800px;
     margin-left: auto;
     margin-right: auto;
@@ -82,7 +82,7 @@ body{
     min-height: 200px;
 }
 footer {
-    width: 960px;
+    width: 9100%;
     height: 180px;
     margin-left: auto;
     margin-right: auto;
@@ -94,7 +94,7 @@ footer {
     height: 180px;
     float: left;
     padding: 20px;
-    box-sizing: border-box;
+    box-sizing:content-box;
 }
 .redes{
     float:right;
