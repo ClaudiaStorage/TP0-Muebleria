@@ -18,7 +18,7 @@ body{
     height: 70px;
     margin-left: auto;
     margin-right: auto;
-    background-color: rgb(183, 182, 163);
+    background-color: rgb(167, 204, 218);
     display: flex;
   justify-content: space-between;
   
@@ -69,7 +69,7 @@ body{
     color: rgb(57, 58, 48);
 }
 .navbar ul li a:hover{
-    color: rgb(101, 101, 46);
+    color: rgb(100, 120, 123);
 }
 .descripcion {
     width: 100%;
